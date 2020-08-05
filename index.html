@@ -13017,6 +13017,45 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
+<style type="text/css">
+    
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+
+    </style>
 
 
 <style type="text/css">
@@ -13077,14 +13116,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exploring-IGS-Poll-Data-in-Python">Exploring IGS Poll Data in Python<a class="anchor-link" href="#Exploring-IGS-Poll-Data-in-Python">&#182;</a></h1><pre>
-</pre><p>Between April 16 and 20, 2020 the <a href="https://www.igs.berkeley.edu">Institute of Governmental Studies (IGS)</a>, in conjunction with the <a href="https://publichealth.berkeley.edu/research/centers/california-initiative-for-health-equity-action">California Institute of Health Equity and Action(Cal-IHEA)</a>, polled 8,800 registered voters about a variety of issues concerning the current state of politics and COVID-19.  This was an unprecendented and urgently needed pulse-taking of the California populace during the pandemic.</p>
-<p>Below we provide an overview of the IGS Poll and describe how key findings from this survey can be found in the <strong>IGS Poll Reports</strong> while the data itself is made available by the <strong>D-Lab</strong>.</p>
-<p>We then provide a short tutorial on how to access and explore the IGS Poll data in Python.</p>
-<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><h3 id="About-The-IGS-Poll">About The IGS Poll<a class="anchor-link" href="#About-The-IGS-Poll">&#182;</a></h3><p>The <a href="https://www.igs.berkeley.edu/research/berkeley-igs-poll">Berkeley IGS Poll</a> is a periodic survey of California public opinion on important matters of politics, public policy, and public issues. The poll, which is disseminated widely, seeks to provide a broad measure of contemporary public opinion, and to generate data for subsequent scholarly analysis. IGS Polls have been distributed 2-4 times per year since 2015.</p>
-<p>The IGS Polls continue the tradition of the California Field Polls. The Field Poll, or the California Poll, was established in 1947 by <a href="https://en.wikipedia.org/wiki/Mervin_Field">Mervin Field</a> and operated continuously as an independent, non-partisan, media-sponsored public opinion news service from 1946 - 2014. Prior to their discontinuation, IGS collaborated with the Field Poll on a number of polls in 2011 and 2012.</p>
-<h3 id="IGS-Poll-Reports">IGS Poll Reports<a class="anchor-link" href="#IGS-Poll-Reports">&#182;</a></h3><p>IGS researchers analyze the reponses from each survey and publish summary reports of key findings. Typically many reports are produced per survey. Recent IGS Poll reports can be downloaded from <a href="https://escholarship.org/uc/igs_poll">eScholarship</a>. You can stay abreast of new IGS Polls and reports by using the form on the IGS website to join the <a href="https://www.igs.berkeley.edu/about">IGS mailing list</a>.</p>
-<h3 id="Accessing-the-IGS-and-Field-Poll-Data">Accessing the IGS and Field Poll Data<a class="anchor-link" href="#Accessing-the-IGS-and-Field-Poll-Data">&#182;</a></h3><p>The <a href="https://dlab.berkeley.edu">D-Lab</a> makes the IGS and Field Poll data available via <a href="https://sda.berkeley.edu/">SDA</a>. SDA, or <code>Survey Documentation and Analysis</code> is an online tool for survey data analysis that also provides a platform for managing the survey data files and related documentation and facilitating their download. SDA was developed at UC, Berkeley but since 2015 it has been managed and supported by the Institute for Scientific Analysis (ISA), a private, non-profit organization, under agreement with the University of California.</p>
+<h1 id="Exploring-Berkeley-IGS-Poll-Data-in-Python">Exploring Berkeley IGS Poll Data in Python<a class="anchor-link" href="#Exploring-Berkeley-IGS-Poll-Data-in-Python">&#182;</a></h1><pre>
+</pre><p>Between April 16 and 20, 2020 the <a href="https://www.igs.berkeley.edu">Institute of Governmental Studies (IGS)</a>, in conjunction with the <a href="https://publichealth.berkeley.edu/research/centers/california-initiative-for-health-equity-action">California Institute of Health Equity and Action(Cal-IHEA)</a>, polled 8,800 registered voters about a variety of issues concerning the current state of politics and COVID-19.  This was an unprecendented and urgently needed pulse-taking of the California populace during the pandemic. A more recent Berkeley IGS Poll from July 2020 that follows up on these and other issues of importance to Californians was just completed.</p>
+<p>Below we provide an overview of the Berkeley IGS Poll and describe how key findings from this survey are reported in the <strong>Berkeley IGS Poll Reports</strong> while the data itself is made available by the <strong>D-Lab</strong>.</p>
+<p>We then provide a detailed tutorial on how to access and explore the Berkeley IGS Poll data in Python.</p>
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><h3 id="About-The-Berkeley-IGS-Poll">About The Berkeley IGS Poll<a class="anchor-link" href="#About-The-Berkeley-IGS-Poll">&#182;</a></h3><p>The <a href="https://www.igs.berkeley.edu/research/berkeley-igs-poll">Berkeley IGS Poll</a> is a periodic survey of California public opinion on important matters of politics, public policy, and public issues. The poll, which is disseminated widely to California registered voters, seeks to provide a broad measure of contemporary public opinion, and to generate data for subsequent scholarly analysis. Berkeley IGS Polls have been distributed 2-4 times per year since 2015.</p>
+<p>The Berkeley IGS Polls continue the tradition of the California Field Polls. The Field Poll, or the California Poll, was established in 1947 by <a href="https://en.wikipedia.org/wiki/Mervin_Field">Mervin Field</a> and operated continuously as an independent, non-partisan, media-sponsored public opinion news service from 1946 - 2014. Prior to their discontinuation, IGS collaborated with the Field Poll on a number of polls in 2011 and 2012.</p>
+<h3 id="Berkeley-IGS-Poll-Reports">Berkeley IGS Poll Reports<a class="anchor-link" href="#Berkeley-IGS-Poll-Reports">&#182;</a></h3><p>IGS staff and affiliates, as well as other UC Berkeley researchers, analyze the reponses from each survey and publish summary reports of key findings as part of the <strong>Berkeley IGS Poll report series</strong>. Typically many reports are produced per survey. Recent IGS Poll reports can be downloaded from <a href="https://escholarship.org/uc/igs_poll">eScholarship</a>. You can stay abreast of new IGS Polls and reports by using the form on the IGS website to join the <a href="https://www.igs.berkeley.edu/about">IGS mailing list</a>.</p>
+<h3 id="Accessing-the-Berkeley-IGS-and-California-Field-Poll-Data">Accessing the Berkeley IGS and California Field Poll Data<a class="anchor-link" href="#Accessing-the-Berkeley-IGS-and-California-Field-Poll-Data">&#182;</a></h3><p>The <a href="https://dlab.berkeley.edu">D-Lab</a> makes the IGS and Field Poll data available via <a href="https://sda.berkeley.edu/">SDA</a>. SDA, or <code>Survey Documentation and Analysis</code> is an online tool for survey data analysis that also provides a platform for managing the survey data files and related documentation and facilitating their download. SDA was developed at UC, Berkeley but since 2015 it has been managed and supported by the Institute for Scientific Analysis (ISA), a private, non-profit organization, under agreement with the University of California.</p>
 <p>A complete list of the IGS and Field polls that are accessible via SDA can be found on the <a href="https://dlab.berkeley.edu/data-resources/california-polls">D-Lab Data California Polls webpage</a>.</p>
 
 </div>
@@ -13101,6 +13140,7 @@ div#notebook {
 <li><a href="#igs-tables">Creating Tables from IGS Poll Data</a></li>
 <li><a href="#igs-maps">Mapping IGS Poll Data with Geopandas</a></li>
 <li><a href="#reusable-code">Making reusable code</a></li>
+<li><a href="#next-steps">Next Steps</a></li>
 </ul>
 
 </div>
@@ -13127,7 +13167,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> <span class="c1"># more plotting stuff</span>
 
 <span class="kn">import</span> <span class="nn">requests</span> 
-<span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">urlopen</span><span class="p">,</span> <span class="n">Request</span>
+<span class="kn">from</span> <span class="nn">urllib.request</span> <span class="k">import</span> <span class="n">urlopen</span><span class="p">,</span> <span class="n">Request</span>
 
 <span class="kn">import</span> <span class="nn">json</span> <span class="c1"># for working with JSON data</span>
 <span class="kn">import</span> <span class="nn">geojson</span> <span class="c1"># ditto for GeoJSON data - an extension of JSON with support for geographic data</span>
@@ -13156,7 +13196,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="images/poll1.png" width=90%></p>
+<p><img src="images/poll1.png"></p>
 
 </div>
 </div>
@@ -13208,7 +13248,7 @@ div#notebook {
 <h2 id="Working-with-the-IGS-Poll-Data-in-Python">Working with the IGS Poll Data in Python<a class="anchor-link" href="#Working-with-the-IGS-Poll-Data-in-Python">&#182;</a></h2><p>If you want to read in a proprietary statistical data file (SPSS or SAS etc) into Python you can use the <a href="https://github.com/Roche/pyreadstat">pyreadstat</a> package or similar. This process is detailed in the excellent blogpost <a href="https://towardsdatascience.com/how-to-analyze-survey-data-with-python-84eff9cc9568">How To Analyze Survey Data With Python</a>, by Benedikt Droste (7/21/2019).</p>
 <p>We will draw from and expand the work in that blog post below.</p>
 <h3 id="Read-in-SPSS-file">Read in SPSS file<a class="anchor-link" href="#Read-in-SPSS-file">&#182;</a></h3><p>Use <code>pyreadstat.read_sav</code> to read in the SPSS file created from the SDA output. As you recall SDA produced a data file and a data definition file (DDL). The contents of both of these are in the SPSS sav file <code>igs-covid-poll-april2020_withlabels.sav</code>. When we read this file in the function returns both a pandas dataframe (df) from the data file and a metadata object from the DDL file.</p>
-<blockquote><p><strong>Follow along</strong>: The notebook and data for this tutorial can be found here.</p>
+<blockquote><p><strong>Follow along</strong>: The notebook and data for this tutorial can be found <a href="https://github.com/dlab-geo/igspoll-processing-in-python">here</a>.</p>
 </blockquote>
 
 </div>
@@ -14136,54 +14176,54 @@ Name: q23, dtype: float64</pre>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <style  type="text/css" >
-</style><table id="T_10842d66_d6c9_11ea_b138_186590d98dd5" ><thead>    <tr>        <th class="index_name level0" >q9</th>        <th class="col_heading level0 col0" >1</th>        <th class="col_heading level0 col1" >2</th>        <th class="col_heading level0 col2" >3</th>        <th class="col_heading level0 col3" >4</th>        <th class="col_heading level0 col4" >NA</th>    </tr>    <tr>        <th class="index_name level0" >q23</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
+</style><table id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5" ><thead>    <tr>        <th class="index_name level0" >q9</th>        <th class="col_heading level0 col0" >1</th>        <th class="col_heading level0 col1" >2</th>        <th class="col_heading level0 col2" >3</th>        <th class="col_heading level0 col3" >4</th>        <th class="col_heading level0 col4" >NA</th>    </tr>    <tr>        <th class="index_name level0" >q23</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row0" class="row_heading level0 row0" >1</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row0_col0" class="data row0 col0" >0.54</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row0_col1" class="data row0 col1" >0.07</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row0_col2" class="data row0 col2" >0.32</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row0_col3" class="data row0 col3" >0.45</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row0_col4" class="data row0 col4" >0.29</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row0" class="row_heading level0 row0" >1</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row0_col0" class="data row0 col0" >0.54</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row0_col1" class="data row0 col1" >0.07</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row0_col2" class="data row0 col2" >0.32</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row0_col3" class="data row0 col3" >0.45</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row0_col4" class="data row0 col4" >0.29</td>
             </tr>
             <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row1" class="row_heading level0 row1" >2</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row1_col0" class="data row1 col0" >0.26</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row1_col1" class="data row1 col1" >0.08</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row1_col2" class="data row1 col2" >0.19</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row1_col3" class="data row1 col3" >0.15</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row1_col4" class="data row1 col4" >0.00</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row1" class="row_heading level0 row1" >2</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row1_col0" class="data row1 col0" >0.26</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row1_col1" class="data row1 col1" >0.08</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row1_col2" class="data row1 col2" >0.19</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row1_col3" class="data row1 col3" >0.15</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row1_col4" class="data row1 col4" >0.00</td>
             </tr>
             <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row2" class="row_heading level0 row2" >3</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row2_col0" class="data row2 col0" >0.14</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row2_col1" class="data row2 col1" >0.14</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row2_col2" class="data row2 col2" >0.17</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row2_col3" class="data row2 col3" >0.15</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row2_col4" class="data row2 col4" >0.43</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row2" class="row_heading level0 row2" >3</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row2_col0" class="data row2 col0" >0.14</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row2_col1" class="data row2 col1" >0.14</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row2_col2" class="data row2 col2" >0.17</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row2_col3" class="data row2 col3" >0.15</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row2_col4" class="data row2 col4" >0.43</td>
             </tr>
             <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row3" class="row_heading level0 row3" >4</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row3_col0" class="data row3 col0" >0.04</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row3_col1" class="data row3 col1" >0.11</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row3_col2" class="data row3 col2" >0.09</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row3_col3" class="data row3 col3" >0.05</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row3_col4" class="data row3 col4" >0.00</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row3" class="row_heading level0 row3" >4</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row3_col0" class="data row3 col0" >0.04</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row3_col1" class="data row3 col1" >0.11</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row3_col2" class="data row3 col2" >0.09</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row3_col3" class="data row3 col3" >0.05</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row3_col4" class="data row3 col4" >0.00</td>
             </tr>
             <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row4" class="row_heading level0 row4" >5</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row4_col0" class="data row4 col0" >0.02</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row4_col1" class="data row4 col1" >0.61</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row4_col2" class="data row4 col2" >0.23</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row4_col3" class="data row4 col3" >0.20</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row4_col4" class="data row4 col4" >0.14</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row4" class="row_heading level0 row4" >5</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row4_col0" class="data row4 col0" >0.02</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row4_col1" class="data row4 col1" >0.61</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row4_col2" class="data row4 col2" >0.23</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row4_col3" class="data row4 col3" >0.20</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row4_col4" class="data row4 col4" >0.14</td>
             </tr>
             <tr>
-                        <th id="T_10842d66_d6c9_11ea_b138_186590d98dd5level0_row5" class="row_heading level0 row5" >NA</th>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row5_col0" class="data row5 col0" >0.00</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row5_col1" class="data row5 col1" >0.00</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row5_col2" class="data row5 col2" >0.00</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row5_col3" class="data row5 col3" >0.00</td>
-                        <td id="T_10842d66_d6c9_11ea_b138_186590d98dd5row5_col4" class="data row5 col4" >0.14</td>
+                        <th id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5level0_row5" class="row_heading level0 row5" >NA</th>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row5_col0" class="data row5 col0" >0.00</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row5_col1" class="data row5 col1" >0.00</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row5_col2" class="data row5 col2" >0.00</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row5_col3" class="data row5 col3" >0.00</td>
+                        <td id="T_f7e70c5c_d6c7_11ea_9c91_186590d98dd5row5_col4" class="data row5 col4" >0.14</td>
             </tr>
     </tbody></table>
 </div>
@@ -14231,41 +14271,41 @@ Name: q23, dtype: float64</pre>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <style  type="text/css" >
-</style><table id="T_1088c704_d6c9_11ea_b138_186590d98dd5" ><thead>    <tr>        <th class="index_name level0" >q9</th>        <th class="col_heading level0 col0" >Democrat</th>        <th class="col_heading level0 col1" >Independent</th>        <th class="col_heading level0 col2" >Republican</th>        <th class="col_heading level0 col3" >Something else</th>    </tr>    <tr>        <th class="index_name level0" >q23</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
+</style><table id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5" ><thead>    <tr>        <th class="index_name level0" >q9</th>        <th class="col_heading level0 col0" >Democrat</th>        <th class="col_heading level0 col1" >Independent</th>        <th class="col_heading level0 col2" >Republican</th>        <th class="col_heading level0 col3" >Something else</th>    </tr>    <tr>        <th class="index_name level0" >q23</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_1088c704_d6c9_11ea_b138_186590d98dd5level0_row0" class="row_heading level0 row0" >Neither agree nor disagree</th>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row0_col0" class="data row0 col0" >0.14</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row0_col1" class="data row0 col1" >0.17</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row0_col2" class="data row0 col2" >0.14</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row0_col3" class="data row0 col3" >0.15</td>
+                        <th id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5level0_row0" class="row_heading level0 row0" >Neither agree nor disagree</th>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row0_col0" class="data row0 col0" >0.14</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row0_col1" class="data row0 col1" >0.17</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row0_col2" class="data row0 col2" >0.14</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row0_col3" class="data row0 col3" >0.15</td>
             </tr>
             <tr>
-                        <th id="T_1088c704_d6c9_11ea_b138_186590d98dd5level0_row1" class="row_heading level0 row1" >Somewhat Agree</th>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row1_col0" class="data row1 col0" >0.26</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row1_col1" class="data row1 col1" >0.19</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row1_col2" class="data row1 col2" >0.08</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row1_col3" class="data row1 col3" >0.15</td>
+                        <th id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5level0_row1" class="row_heading level0 row1" >Somewhat Agree</th>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row1_col0" class="data row1 col0" >0.26</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row1_col1" class="data row1 col1" >0.19</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row1_col2" class="data row1 col2" >0.08</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row1_col3" class="data row1 col3" >0.15</td>
             </tr>
             <tr>
-                        <th id="T_1088c704_d6c9_11ea_b138_186590d98dd5level0_row2" class="row_heading level0 row2" >Somewhat Disagree</th>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row2_col0" class="data row2 col0" >0.04</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row2_col1" class="data row2 col1" >0.09</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row2_col2" class="data row2 col2" >0.11</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row2_col3" class="data row2 col3" >0.05</td>
+                        <th id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5level0_row2" class="row_heading level0 row2" >Somewhat Disagree</th>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row2_col0" class="data row2 col0" >0.04</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row2_col1" class="data row2 col1" >0.09</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row2_col2" class="data row2 col2" >0.11</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row2_col3" class="data row2 col3" >0.05</td>
             </tr>
             <tr>
-                        <th id="T_1088c704_d6c9_11ea_b138_186590d98dd5level0_row3" class="row_heading level0 row3" >Strongly Agree</th>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row3_col0" class="data row3 col0" >0.54</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row3_col1" class="data row3 col1" >0.32</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row3_col2" class="data row3 col2" >0.07</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row3_col3" class="data row3 col3" >0.45</td>
+                        <th id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5level0_row3" class="row_heading level0 row3" >Strongly Agree</th>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row3_col0" class="data row3 col0" >0.54</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row3_col1" class="data row3 col1" >0.32</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row3_col2" class="data row3 col2" >0.07</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row3_col3" class="data row3 col3" >0.45</td>
             </tr>
             <tr>
-                        <th id="T_1088c704_d6c9_11ea_b138_186590d98dd5level0_row4" class="row_heading level0 row4" >Strongly Disagree</th>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row4_col0" class="data row4 col0" >0.02</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row4_col1" class="data row4 col1" >0.23</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row4_col2" class="data row4 col2" >0.61</td>
-                        <td id="T_1088c704_d6c9_11ea_b138_186590d98dd5row4_col3" class="data row4 col3" >0.20</td>
+                        <th id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5level0_row4" class="row_heading level0 row4" >Strongly Disagree</th>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row4_col0" class="data row4 col0" >0.02</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row4_col1" class="data row4 col1" >0.23</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row4_col2" class="data row4 col2" >0.61</td>
+                        <td id="T_f7ec0220_d6c7_11ea_9c91_186590d98dd5row4_col3" class="data row4 col3" >0.20</td>
             </tr>
     </tbody></table>
 </div>
@@ -14728,7 +14768,7 @@ Name: q23, dtype: float64</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x11ff27fd0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x122421750&gt;</pre>
 </div>
 
 </div>
@@ -14935,7 +14975,7 @@ Name: q23, dtype: float64</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x120af6c50&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1239df3d0&gt;</pre>
 </div>
 
 </div>
@@ -15926,6 +15966,21 @@ Name: q23, dtype: float64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><a id="next-steps"></a></p>
+<h2 id="Next-Steps">Next Steps<a class="anchor-link" href="#Next-Steps">&#182;</a></h2><p>There are many ways in which we could expand on this tutorial. For example, these topics come to mind:</p>
+<ul>
+<li>downloading and working with the data in CSV format so as not to require proprietary software</li>
+<li>creating interactive maps of the survey data </li>
+<li>creating publication ready plots and tables</li>
+</ul>
+<p>Keep your eye on the <a href="https://dlab.berkeley.edu/blog">D-Lab blog page</a> as we plan to cover that first topic in a future post. Sign up for a <a href="https://dlab.berkeley.edu/calendar-node-field-date">D-Lab workshop</a> this semester if you want to learn about the other topics which have more general applicabilty.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Parting-thoughts">Parting thoughts<a class="anchor-link" href="#Parting-thoughts">&#182;</a></h1>
 </div>
 </div>
@@ -15933,24 +15988,11 @@ Name: q23, dtype: float64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As you can see, there is a lot of interesting data collected by the IGS Polls and some great libraries for exploring these data in Python.  If you are interested in these data, sign up for the <a href="https://www.igs.berkeley.edu/about">IGS mailing list</a>) and keep your eyes on the D-Lab California Polls web page(<a href="https://dlab.berkeley.edu/data-resources/california-polls">https://dlab.berkeley.edu/data-resources/california-polls</a>).</p>
-<p>If you are looking to develop your data science skills, check out the <a href="https://dlab.berkeley.edu/">D-Lab web site</a>. Better yet, join our newsletter as well and stay abreast of the upcoming workshops as we get ready for the Fall 2020 semester.</p>
+<p>The Berkeley IGS Polls are a tremendous source of data about California public opinion and Python has great libraries for exploring these data.  If you are interested in staying abreast of the Berkeley IGS Poll reports, sign up for the <a href="https://www.igs.berkeley.edu/about">IGS mailing list</a>. If you want to work with the data itself, keep your eyes on the <a href="https://dlab.berkeley.edu/data-resources/california-polls">D-Lab California Polls web page</a>.</p>
+<p>If you are looking to develop your data science skills, check out the <a href="https://dlab.berkeley.edu/">D-Lab web site</a>. Better yet, join our newsletter as well and stay abreast of our upcoming workshops as we get ready for the Fall 2020 semester.</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
