@@ -1,0 +1,2661 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                                    IGS_2020_03
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      IGS_2020_03                                                       Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             ID Number                                           1
+      lang               Language of survey                                  1
+      consent            Consent                                             1
+      q3                 Q3 Are you currently working?                       1
+      q4_1               Q4_1 In what industry do you work?                  2
+      q4_1_20_text       Q4_1 In what industry do you work - other text i    2
+      Q4_1_0             Q4_1 In what industry do you work - other text i    2
+      Q4_2               Q4_2 In what industry were you most recently emp    3
+      Q4_2_20            Q4_2 In what industry were you most recently emp    3
+      Q4_2_0             Q4_2 In what industry were you most recently emp    3
+      Q4_2_1             Q4_2 In what industry were you most recently emp    3
+      Q5                 Q5 Do you approve or disapprove of the way Donal    4
+      Q6                 Q6 How certain are you that you will vote in the    4
+      Q7                 Q7 If the presidential election were held today,    4
+      Q8                 Q8 Do you approve or disapprove of the way that     4
+      Q9                 Q9 Generally speaking in politics do you think o    5
+      Q9A                Q9a As of today, do you lean more to the Democra    5
+      Q9B                Q9b Would you identify yourself as a strong or n    5
+      Q9C                Q9c Would you identify yourself as a strong or n    5
+      Q143               Q143 We would like your opinions about two polit    6
+      Q144               Q144 We would like your opinions about two polit    6
+      Q47                Q47 How much of the time do you trust the federa    6
+      Q48                Q48 How about your state government in Sacrament    6
+      Q10_1              Q10_1 To what extent is COVID-19 a threat to you    7
+      Q10_2              Q10_2 To what extent is COVID-19 a threat to you    7
+      Q10_3              Q10_3 To what extent is COVID-19 a threat to you    7
+      Q10_4              Q10_4 To what extent is COVID-19 a threat to the    7
+      Q10_5              Q10_5 To what extent is COVID-19 a threat to you    8
+      Q10_6              Q10_6To what extent is COVID-19 a threat to your    8
+      Q11_1              Q11_1 To what degree is this a problem that you     8
+      Q11_2              Q11_2 To what degree is this a problem that you     8
+      Q11_3              Q11_3 To what degree is this a problem that you     9
+      Q11_4              Q11_4 To what degree is this a problem that you     9
+      Q11_5              Q11_5 To what degree is this a problem that you     9
+      Q11_6              Q11_6 To what degree is this a problem that you    10
+      Q11_7              Q11_7 To what degree is this a problem that you    10
+      Q11_8              Q11_8 To what degree is this a problem that you    10
+      Q11_9              Q11_9 To what degree is this a problem that you    11
+      Q11_10             Q11_10 To what degree is this a problem that you   11
+      Q12                Q12 Since becoming aware of the COVID-19 outbrea   11
+      Q16_1              Q16_1 How concerned, if at all, are you that you   12
+      Q16_2              Q16_2 How concerned, if at all, are you that you   12
+      Q13                Q13 Have you been tested for COVID-19?             12
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page ii
+
+
+      item                                                                page
+
+      Q14                Q14 Do you personally know anyone that has been    12
+      Q14I               Q14i Do you personally know anyone that has been   13
+      Q14A               Q14a Do you personally know of anyone who has te   13
+      Q14AI              Q14ai Do you personally know of anyone who has t   13
+      Q17                Q17 Which best describes your workplace since th   14
+      Q18                Q18 How likely are each of the following to happ   14
+      Q19_1_1            Q19_1 In your opinion, how effective are the fol   14
+      Q19_1_2            Q19_2 In your opinion, how effective are the fol   14
+      Q19_1_3            Q19_3 In your opinion, how effective are the fol   15
+      Q19_1_4            Q19_4 In your opinion, how effective are the fol   15
+      Q19_1_5            Q19_5 In your opinion, how effective are the fol   15
+      Q19_1_6            Q19_6 In your opinion, how effective are the fol   15
+      Q19_1_7            Q19_7 In your opinion, how effective are the fol   16
+      Q19_1_8            Q19_8 In your opinion, how effective are the fol   16
+      Q19                Q19 To what extent do you agree or disagree with   16
+      Q20                Q20 We are interested in how your immediate fami   16
+      Q21                Q21 How concerned are you about the risks that y   17
+      Q22                Q22 Over the last week, how many times have you    17
+      Q22A               Q22a How safe have you felt when you have left t   17
+      Q23                Q23 To what extent do you agree or disagree with   18
+      Q33                Q33 Over the past 12 months, how many months did   18
+      Q24                Q24 How, if at all, has the COVID-19 pandemic af   18
+      Q25_1              Q25_1 To what extent do you trust the following    18
+      Q25_2              Q25_2 To what extent do you trust the following    19
+      Q25_3              Q25_3 To what extent do you trust the following    19
+      Q25_4              Q25_4 To what extent do you trust the following    19
+      Q25_5              Q25_5 To what extent do you trust the following    19
+      Q25_6              Q25_6 To what extent do you trust the following    20
+      Q25_7              Q25_7 To what extent do you trust the following    20
+      Q25_8              Q25_8 To what extent do you trust the following    20
+      Q25_9              Q25_9 To what extent do you trust the following    20
+      Q25_10             Q25_10 To what extent do you trust the following   21
+      Q25_11             Q25_11 To what extent do you trust the following   21
+      Q25_12             Q25_12 To what extent do you trust the following   21
+      Q26                Q26 To what extent do you agree or disagree with   21
+      Q27                Q27 Do you think everyone qualified for the COVI   22
+      Q28_1_1            Q28_1_1 Indicate the extent to which you agree o   22
+      Q28_1_2            Q28_1_2 Indicate the extent to which you agree o   22
+      Q28_1_3            Q28_1_3 Indicate the extent to which you agree o   22
+      Q28_1_4            Q28_1_4 Indicate the extent to which you agree .   23
+      Q28                Q28 To what extent do you agree or disagree with   23
+      Q29                Q29 To what extent do you agree or disagree with   23
+      Q30                Q30 To what extent do you agree or disagree with   24
+      Q31_1              Q31_1 To what extent do you think each of the fo   24
+      Q31_2              Q31_2 To what extent do you think each of the fo   24
+      Q31_3              Q31_3 To what extent do you think each of the fo   24
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                     Page iii
+
+
+      item                                                                page
+
+      Q31_4              Q31_4 To what extent do you think each of the fo   25
+      Q31_5              Q31_5 To what extent do you think each of the fo   25
+      Q31_6              Q31_6 To what extent do you think each of the fo   25
+      Q31_7              Q31_7 To what extent do you think each of the fo   25
+      Q31_8              Q31_8 To what extent do you think each of the fo   26
+      Q31_9              Q31_9 To what extent do you think each of the fo   26
+      Q32                Q32 How much trust and confidence do you have in   26
+      Q44                Q44 Do you favor or oppose a nationwide shelter-   26
+      Q46                Q46 Which is a bigger concern for you: that shel   27
+      Q35                Q35 Is Californias diversity an advantage or dis   27
+      Q36                Q36 Do immigrants make the U.S. a worse or bette   27
+      Q37                Q37 There should be a formal pathway to citizens   27
+      Q38_1              Q38_1 How often have you felt this emotion towar   28
+      Q38_2              Q38_2 How often have you felt this emotion towar   28
+      Q38_3              Q38_3 How often have you felt this emotion towar   28
+      Q38_4              Q38_4 How often have you felt this emotion towar   28
+      Q39_1              Q39_1 How often have you felt this emotion towar   29
+      Q39_2              Q39_2 How often have you felt this emotion towar   29
+      Q39_3              Q39_3 How often have you felt this emotion towar   29
+      Q39_4              Q39_4 How often have you felt this emotion towar   29
+      Q40_1              Q40_1 How often have you felt this emotion towar   30
+      Q40_2              Q40_2 How often have you felt this emotion towar   30
+      Q40_3              Q40_3 How often have you felt this emotion towar   30
+      Q40_4              Q40_4 How often have you felt this emotion towar   30
+      Q41_1              Q41 How often have you felt this emotion towards   31
+      Q41_2              Q41 How often have you felt this emotion towards   31
+      Q41_3              Q41 How often have you felt this emotion towards   31
+      Q41_4              Q41 How often have you felt this emotion towards   31
+      Q49                Q49 The Census is conducted every 10 years to co   32
+      q1                 Q1 What is your age?                               32
+      q2                 Q2 What county do you reside in?                   32
+      Q50                Q50 For survey purposes, we would like to know w   32
+      Q50_7_TE           Q50_7 For survey purposes, we would like to know   32
+      Q50_70             Q50_7 For survey purposes, we would like to know   32
+      Q50_71             Q50_7 For survey purposes, we would like to know   32
+      Q51                Q51 Which of these do you think of as your prima   33
+      Q51_7_TE           Q51_7 Which of these do you think of as your pri   33
+      Q51_70             Q51_7 Which of these do you think of as your pri   33
+      Q52                Q52 Do you speak English primarily or do you spe   33
+      Q53                Q53 What is the highest year of school that you    34
+      Q54                Q54 How would you describe your gender?            34
+      Q54_5_TE           Q54_5 How would you describe your gender - other   34
+      Q54_50             Q54_5 How would you describe your gender - other   34
+      Q54_51             Q54_5 How would you describe your gender - other   34
+      Q55                Q55 How many adults over 65 years are currently    35
+      Q56                Q56 How many children under the age of 18 are cu   35
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page iv
+
+
+      item                                                                page
+
+      Q57                Q57 Do you have to care for children in your hom   36
+      Q58                Q58 Are you or is anyone in your household a mem   36
+      Q59                Q59 In general, how would you describe your poli   36
+      Q60                Q60 Which of the following best describes your p   36
+      Q61                Q61 Are you the parent or legal guardian of any    37
+      Q62                Q62 Do you consider yourself a born-again or eva   37
+      Q63                Q63 Were you born in the United States or anothe   37
+      Q64                Q64 Do you own or rent your current residence? F   37
+      Q65                Q65 Do you own a small business of your own?       38
+      Q66                Q66 We do not want to know your exact income, bu   38
+      Q67                Q67 Which best describes your religious affiliat   38
+      PARTY              party (registration)                               39
+      F20                F20 (2018 general election voting)                 39
+      RZIP               rzip (zipcode)                                     39
+      AGE_GROU           Age Group                                          39
+      COUNTY             County                                             39
+      REGION             Region                                             39
+      W1                 weight                                             39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 1
+
+
+      CASEID             ID Number
+
+           Data type: numeric
+           Record/columns: 1/1-4
+
+      ________________________________________________________________________
+
+      lang               Language of survey
+
+           VALUE  LABEL
+               1  English
+               2  Spanish
+
+           Data type: numeric
+           Record/column: 1/6
+
+      ________________________________________________________________________
+
+      consent            Consent
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      q3                 Q3 Are you currently working?
+
+           VALUE  LABEL
+               1  Yes
+               2  No, Unemployed
+               3  No, Retired
+               4  No, Student
+
+           Data type: character
+           Record/columns: 1/11-12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 2
+
+
+      q4_1               Q4_1 In what industry do you work?
+
+           VALUE  LABEL
+               1  Healthcare Services
+               2  Essential Retail: Groceries, pharmacy, hardware, or gas station
+               3  Retail other than essential category
+               4  Personal care services such as Child Care, Elderly Care in Residence
+               5  Restaurants and Bars
+               6  Delivery Services for Parcel Company, Websites, Stores, Apps
+               7  Agriculture, forestry, fishing, and hunting
+               8  Construction
+               9  Transportation and utilities
+              10  Rideshare Driver
+              11  Education
+              12  Manufacturing
+              13  Professional and business services
+              14  Self-employed or small business owner
+              15  Janitorial or Landscaping
+              16  Information Technology
+              17  Finance and Accounting
+              18  Hotels and Hospitality
+              19  Government services such as state, local, or federal
+              20  Other
+
+           Data type: character
+           Record/columns: 1/16-17
+
+      ________________________________________________________________________
+
+      q4_1_20_text       Q4_1 In what industry do you work - other text input
+
+           Data type: character
+           Record/columns: 1/21-118
+
+      ________________________________________________________________________
+
+      Q4_1_0             Q4_1 In what industry do you work - other text input
+
+           Data type: character
+           Record/column: 1/122
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 3
+
+
+      Q4_2               Q4_2 In what industry were you most recently employed?
+
+           VALUE  LABEL
+               1  Healthcare Services
+               2  Essential Retail: Groceries, pharmacy, hardware, or gas station
+               3  Retail other than essential category
+               4  Personal care services such as Child Care, Elderly Care in Residence
+               5  Restaurants and Bars
+               6  Delivery Services for Parcel Company, Websites, Stores, Apps
+               7  Agriculture, forestry, fishing, and hunting
+               8  Construction
+               9  Transportation and utilities
+              10  Rideshare Driver
+              11  Education
+              12  Manufacturing
+              13  Professional and business services
+              14  Self-employed or small business owner
+              15  Janitorial or Landscaping
+              16  Information Technology
+              17  Finance and Accounting
+              18  Hotels and Hospitality
+              19  Government services such as state, local, or federal
+              20  Other
+
+           Data type: character
+           Record/columns: 1/126-127
+
+      ________________________________________________________________________
+
+      Q4_2_20            Q4_2 In what industry were you most recently employed - other text input
+
+           Data type: character
+           Record/columns: 1/131-359
+
+      ________________________________________________________________________
+
+      Q4_2_0             Q4_2 In what industry were you most recently employed - other text input
+
+           Data type: character
+           Record/column: 1/363
+
+      ________________________________________________________________________
+
+      Q4_2_1             Q4_2 In what industry were you most recently employed - other text input
+
+           Data type: character
+           Record/column: 1/367
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 4
+
+
+      Q5                 Q5 Do you approve or disapprove of the way Donald Trump is handling his job as President?
+
+           VALUE  LABEL
+               1  Approve strongly
+               2  Approve somewhat
+               3  Neither approve nor disapprove
+               4  Disapprove somewhat
+               5  Disapprove strongly
+
+           Data type: character
+           Record/columns: 1/371-372
+
+      ________________________________________________________________________
+
+      Q6                 Q6 How certain are you that you will vote in the November 2020 general election?
+
+           VALUE  LABEL
+               1  Absolutely certain
+               2  Fairly certain
+               3  Not too certain
+               4  Not at all certain
+
+           Data type: character
+           Record/columns: 1/376-377
+
+      ________________________________________________________________________
+
+      Q7                 Q7 If the presidential election were held today, if Donald Trump was the Republican Party candidate and Joe Biden the Democratic Party candidate, who would you vote for?
+
+           VALUE  LABEL
+               1  Trump
+               2  Biden
+               3  Someone else
+               4  Will not vote
+
+           Data type: character
+           Record/columns: 1/381-382
+
+      ________________________________________________________________________
+
+      Q8                 Q8 Do you approve or disapprove of the way that Gavin Newsom is handling his job as Governor of California?
+
+           VALUE  LABEL
+               1  Approve strongly
+               2  Approve somewhat
+               3  Neither approve nor disapprove
+               4  Disapprove somewhat
+               5  Disapprove strongly
+
+           Data type: character
+           Record/columns: 1/386-387
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 5
+
+
+      Q9                 Q9 Generally speaking in politics do you think of yourself as a Democrat, Republican, Independent or something else?
+
+           VALUE  LABEL
+               1  Democrat
+               2  Republican
+               3  Independent
+               4  Something else
+
+           Data type: character
+           Record/columns: 1/391-392
+
+      ________________________________________________________________________
+
+      Q9A                Q9a As of today, do you lean more to the Democratic Party or the Republican Party?
+
+           VALUE  LABEL
+               1  Democratic Party
+               2  Republican Party
+               3  Neither
+
+           Data type: character
+           Record/columns: 1/396-397
+
+      ________________________________________________________________________
+
+      Q9B                Q9b Would you identify yourself as a strong or not very strong Democrat?
+
+           VALUE  LABEL
+               1  Strong Democrat
+               2  Not a strong Democrat
+
+           Data type: character
+           Record/columns: 1/401-402
+
+      ________________________________________________________________________
+
+      Q9C                Q9c Would you identify yourself as a strong or not very strong Republican?
+
+           VALUE  LABEL
+               1  Strong Republican
+               2  Not a strong Republican
+
+           Data type: character
+           Record/columns: 1/406-407
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 6
+
+
+      Q143               Q143 We would like your opinions about two politicians.... They are Candidate A and Candidate B. Both candidates are Democrats from California.  If you had to choose, for which candidate would more inclined to vote?
+
+           VALUE  LABEL
+               1  Definitely Candidate A
+               2  Probably Candidate A
+               3  Probably Candidate B
+               4  Definitely Candidate B
+
+           Data type: character
+           Record/columns: 1/411-412
+
+      ________________________________________________________________________
+
+      Q144               Q144 We would like your opinions about two politicians.... They are Candidate A and Candidate B. Both candidates are Republicans from California. If you had to choose, for which candidate would more inclined to vote?
+
+           VALUE  LABEL
+               1  Definitely Candidate A
+               2  Probably Candidate A
+               3  Probably Candidate B
+               4  Definitely Candidate B
+
+           Data type: character
+           Record/columns: 1/416-417
+
+      ________________________________________________________________________
+
+      Q47                Q47 How much of the time do you trust the federal government in Washington D.C. to do what is right?
+
+           VALUE  LABEL
+               1  Just about always
+               2  Most of the time
+               3  Only sometimes
+               4  Never at all
+
+           Data type: character
+           Record/columns: 1/421-422
+
+      ________________________________________________________________________
+
+      Q48                Q48 How about your state government in Sacramento? How much of the time do you think you can trust the California state government to do what is right?
+
+           VALUE  LABEL
+               1  Just about always
+               2  Most of the time
+               3  Only sometimes
+               4  Never at all
+
+           Data type: character
+           Record/columns: 1/426-427
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 7
+
+
+      Q10_1              Q10_1 To what extent is COVID-19 a threat to your employment?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/431-432
+
+      ________________________________________________________________________
+
+      Q10_2              Q10_2 To what extent is COVID-19 a threat to your personal / family financial situation?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/436-437
+
+      ________________________________________________________________________
+
+      Q10_3              Q10_3 To what extent is COVID-19 a threat to your local economy?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/441-442
+
+      ________________________________________________________________________
+
+      Q10_4              Q10_4 To what extent is COVID-19 a threat to the U.S economy?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/446-447
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 8
+
+
+      Q10_5              Q10_5 To what extent is COVID-19 a threat to your personal / family health?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/451-452
+
+      ________________________________________________________________________
+
+      Q10_6              Q10_6To what extent is COVID-19 a threat to your day-to-day life?
+
+           VALUE  LABEL
+               1  A major threat
+               2  A minor threat
+               3  No Threat
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/456-457
+
+      ________________________________________________________________________
+
+      Q11_1              Q11_1 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Getting sick from the coronavirus/getting COVID-19
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/461-462
+
+      ________________________________________________________________________
+
+      Q11_2              Q11_2 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Not being able to pay for basic necessities (i.e. food, medication, rent/mortgage)
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/466-467
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                       Page 9
+
+
+      Q11_3              Q11_3 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Not being able to get medical care
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/471-472
+
+      ________________________________________________________________________
+
+      Q11_4              Q11_4 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Losing my job
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/476-477
+
+      ________________________________________________________________________
+
+      Q11_5              Q11_5 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Lacking paid sick leave
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/481-482
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 10
+
+
+      Q11_6              Q11_6 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Not being able to get childcare
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/486-487
+
+      ________________________________________________________________________
+
+      Q11_7              Q11_7 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Reduced wages or work hours
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/491-492
+
+      ________________________________________________________________________
+
+      Q11_8              Q11_8 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19:Not being able to get tested for COVID-19
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/496-497
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 11
+
+
+      Q11_9              Q11_9 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Unable to work remotely or working under dangerous conditions (i.e. close proximity to others)
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/501-502
+
+      ________________________________________________________________________
+
+      Q11_10             Q11_10 To what degree is this a problem that you expect to face - or are already facing - as a result of COVID-19: Unable to get cleaning supplies or hand sanitizer
+
+           VALUE  LABEL
+               1  Very serious problem
+               2  Somewhat serious problem
+               3  Not much of a problem
+               4  No problem at all
+               5  Not sure
+
+           Data type: character
+           Record/columns: 1/506-507
+
+      ________________________________________________________________________
+
+      Q12                Q12 Since becoming aware of the COVID-19 outbreak, how often have you felt happy and satisfied with your life?
+
+           VALUE  LABEL
+               1  Not at all
+               2  Rarely
+               3  Sometimes
+               4  Often
+               5  Very often
+
+           Data type: character
+           Record/columns: 1/511-512
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 12
+
+
+      Q16_1              Q16_1 How concerned, if at all, are you that you might spread the coronavirus to other people without knowing that you have it?
+
+           VALUE  LABEL
+               1  Very concerned
+               2  Somewhat concerned
+               3  Not too concerned
+               4  Not at all concerned
+
+           Data type: character
+           Record/columns: 1/516-517
+
+      ________________________________________________________________________
+
+      Q16_2              Q16_2 How concerned, if at all, are you that you will get the coronavirus and require hospitialization?
+
+           VALUE  LABEL
+               1  Very concerned
+               2  Somewhat concerned
+               3  Not too concerned
+               4  Not at all concerned
+
+           Data type: character
+           Record/columns: 1/521-522
+
+      ________________________________________________________________________
+
+      Q13                Q13 Have you been tested for COVID-19?
+
+           VALUE  LABEL
+               1  Yes, and the test was positive
+               2  Yes, and I am waiting for the results
+               3  Yes, and the test was negative
+               4  No, I tried to get tested but could not get a test
+               5  No, I have not tried to get a test
+
+           Data type: character
+           Record/columns: 1/526-527
+
+      ________________________________________________________________________
+
+      Q14                Q14 Do you personally know anyone that has been tested or is waiting/registered to be tested for COVID-19?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Not sure
+
+           Data type: character
+           Record/columns: 1/531-532
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 13
+
+
+      Q14I               Q14i Do you personally know anyone that has been tested or is waiting/registered to be tested for COVID-19 - How many?
+
+           VALUE  LABEL
+               0  0
+               1  1
+               2  2
+               3  3
+               4  5
+               5  5
+               6  6
+               7  7
+               8  8
+               9  9
+              10  10+
+
+           Data type: character
+           Record/columns: 1/536-537
+
+      ________________________________________________________________________
+
+      Q14A               Q14a Do you personally know of anyone who has tested positive for COVID-19?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Not sure
+
+           Data type: character
+           Record/columns: 1/541-542
+
+      ________________________________________________________________________
+
+      Q14AI              Q14ai Do you personally know of anyone who has tested positive for COVID-19 - How many?
+
+           VALUE  LABEL
+               0  0
+               1  1
+               2  2
+               3  3
+               4  5
+               5  5
+               6  6
+               7  7
+               8  8
+               9  9
+              10  10+
+
+           Data type: character
+           Record/columns: 1/546-547
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 14
+
+
+      Q17                Q17 Which best describes your workplace since the California statewide shelter-in-place went into effect?
+
+           VALUE  LABEL
+               1  I am able to work from my home
+               2  I leave home to go to work, but my job involves minimal contact with other people
+               3  I leave home to go to work and I am in regular contact with other people
+
+           Data type: character
+           Record/columns: 1/551-552
+
+      ________________________________________________________________________
+
+      Q18                Q18 How likely are each of the following to happen if you got sick and could not work for at least two weeks because of the COVID-19 outbreak? 
+
+           VALUE  LABEL
+               1  I would continue to get paid
+               2  I would not get paid and it would be difficult for me to keep up with my basic expenses
+               3  I would not get paid but I would still be able to keep up with my basic expenses
+               4  I would lose my job
+               5  Do not Know
+
+           Data type: character
+           Record/columns: 1/556-557
+
+      ________________________________________________________________________
+
+      Q19_1_1            Q19_1 In your opinion, how effective are the following for preventing a person from getting COVID-19: Staying at home as much as possible
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/561-562
+
+      ________________________________________________________________________
+
+      Q19_1_2            Q19_2 In your opinion, how effective are the following for preventing a person from getting COVID-19: Washing hands regularly
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/566-567
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 15
+
+
+      Q19_1_3            Q19_3 In your opinion, how effective are the following for preventing a person from getting COVID-19: Wearing a mask
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/571-572
+
+      ________________________________________________________________________
+
+      Q19_1_4            Q19_4 In your opinion, how effective are the following for preventing a person from getting COVID-19: Wearing gloves
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/576-577
+
+      ________________________________________________________________________
+
+      Q19_1_5            Q19_5 In your opinion, how effective are the following for preventing a person from getting COVID-19: Taking vitamins
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/581-582
+
+      ________________________________________________________________________
+
+      Q19_1_6            Q19_6 In your opinion, how effective are the following for preventing a person from getting COVID-19: Eating a healthy diet
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/586-587
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 16
+
+
+      Q19_1_7            Q19_7 In your opinion, how effective are the following for preventing a person from getting COVID-19: Staying 6 feet away from other people
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/591-592
+
+      ________________________________________________________________________
+
+      Q19_1_8            Q19_8 In your opinion, how effective are the following for preventing a person from getting COVID-19: Disinfecting packages and bags
+
+           VALUE  LABEL
+               1  Extremely effective
+               2  Somewhat effective
+               3  Not effective at all
+               4  Not sure
+
+           Data type: character
+           Record/columns: 1/596-597
+
+      ________________________________________________________________________
+
+      Q19                Q19 To what extent do you agree or disagree with the following statement: My employer provides the personal protective equipment (PPE) that I need to do my job safely. For example, masks, gloves, etc.
+
+           VALUE  LABEL
+               1  Strongly agree
+               2  Somewhat agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+               6  Not applicable - I can do my job safely without PPE
+
+           Data type: character
+           Record/columns: 1/601-602
+
+      ________________________________________________________________________
+
+      Q20                Q20 We are interested in how your immediate family members (spouse, siblings, parents, children) are being affected by COVID-19. Which of the following best describes their work situation?
+
+           VALUE  LABEL
+               1  None of my immediate family members have to work outside the home
+               2  Some of my immediate family members have to work outside the home but none of their jobs involve regular contact with ot
+               3  Some of my immediate family members have to work outside the home and, in some cases, their jobs involve regular contact
+
+           Data type: character
+           Record/columns: 1/606-607
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 17
+
+
+      Q21                Q21 How concerned are you about the risks that your immediate family members face from working outside the home during the COVID-19 pandemic?
+
+           VALUE  LABEL
+               1  Not at all concerned
+               2  Somewhat concerned
+               3  Extremely concerned
+               4  Do not know
+
+           Data type: character
+           Record/columns: 1/611-612
+
+      ________________________________________________________________________
+
+      Q22                Q22 Over the last week, how many times have you left the house for work during the shelter-in-place?
+
+           VALUE  LABEL
+               0  0
+               1  1
+               2  2
+               3  3
+               4  4
+               5  5
+               6  6
+               7  7+
+
+           Data type: character
+           Record/columns: 1/616-617
+
+      ________________________________________________________________________
+
+      Q22A               Q22a How safe have you felt when you have left the house?
+
+           VALUE  LABEL
+               1  Very safe
+               2  Fairly safe
+               3  Fairly unsafe
+               4  Very unsafe
+
+           Data type: character
+           Record/columns: 1/621-622
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 18
+
+
+      Q23                Q23 To what extent do you agree or disagree with the following statement: A single-payer health care system, such as... would improve the nation’s ability to respond to disasters and pandemics such as COVID-19.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Somewhat Agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/626-627
+
+      ________________________________________________________________________
+
+      Q33                Q33 Over the past 12 months, how many months did you have health insurance coverage?
+
+           VALUE  LABEL
+               1  Less than 6 months
+               2  6-11 months
+               3  All 12 months
+
+           Data type: character
+           Record/columns: 1/631-632
+
+      ________________________________________________________________________
+
+      Q24                Q24 How, if at all, has the COVID-19 pandemic affected your finances? Check all that apply.
+
+           Data type: character
+           Record/columns: 1/636-650
+
+      ________________________________________________________________________
+
+      Q25_1              Q25_1 To what extent do you trust the following entities to provide accurate information about COVID-19: National government leaders
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/654-655
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 19
+
+
+      Q25_2              Q25_2 To what extent do you trust the following entities to provide accurate information about COVID-19: State and local leaders
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/659-660
+
+      ________________________________________________________________________
+
+      Q25_3              Q25_3 To what extent do you trust the following entities to provide accurate information about COVID-19: Centers for Disease Control and Prevention (CDC)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/664-665
+
+      ________________________________________________________________________
+
+      Q25_4              Q25_4 To what extent do you trust the following entities to provide accurate information about COVID-19: State and local public health agencies (state and/or local health department)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/669-670
+
+      ________________________________________________________________________
+
+      Q25_5              Q25_5 To what extent do you trust the following entities to provide accurate information about COVID-19: World Health Organization (WHO)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/674-675
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 20
+
+
+      Q25_6              Q25_6 To what extent do you trust the following entities to provide accurate information about COVID-19: Scientific experts (for example researchers in the University of California system, Stanford, Harvard)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/679-680
+
+      ________________________________________________________________________
+
+      Q25_7              Q25_7 To what extent do you trust the following entities to provide accurate information about COVID-19: My personal physician/health care provider
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/684-685
+
+      ________________________________________________________________________
+
+      Q25_8              Q25_8 To what extent do you trust the following entities to provide accurate information about COVID-19: Television news (CNN, Fox News, MSNBC)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/689-690
+
+      ________________________________________________________________________
+
+      Q25_9              Q25_9 To what extent do you trust the following entities to provide accurate information about COVID-19: Social media (Facebook, Twitter, YouTube)
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/694-695
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 21
+
+
+      Q25_10             Q25_10 To what extent do you trust the following entities to provide accurate information about COVID-19: Newspaper, including online
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/699-700
+
+      ________________________________________________________________________
+
+      Q25_11             Q25_11 To what extent do you trust the following entities to provide accurate information about COVID-19: Friends or family
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/704-705
+
+      ________________________________________________________________________
+
+      Q25_12             Q25_12 To what extent do you trust the following entities to provide accurate information about COVID-19: Community organizations, including faith-based organization or church
+
+           VALUE  LABEL
+               1  Completely trust
+               2  Somewhat trust
+               3  Somewhat distrust
+               4  Completely distrust
+
+           Data type: character
+           Record/columns: 1/709-710
+
+      ________________________________________________________________________
+
+      Q26                Q26 To what extent do you agree or disagree with the following statement: It is acceptable for President Trump to refer to COVID-19 as the China virus, the Chinese virus, or the Wuhan virus.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Somewhat Agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/714-715
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 22
+
+
+      Q27                Q27 Do you think everyone qualified for the COVID-19 test based on clinical criteria should have access to COVID-19 test regardless of their immigration status?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Do not know/Not sure
+
+           Data type: character
+           Record/columns: 1/719-720
+
+      ________________________________________________________________________
+
+      Q28_1_1            Q28_1_1 Indicate the extent to which you agree or disagree with the following statement: As essential workers, farmworkers should receive full replacement wages from their employers to stay home when sick with COVID-19.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Agree
+               3  Neither agree nor disagree
+               4  Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/724-725
+
+      ________________________________________________________________________
+
+      Q28_1_2            Q28_1_2 Indicate the extent to which you agree or disagree with the following statement: Undocumented farmworkers should receive the same medical and paid sick leave benefits as documented farmworkers if they fall sick with COVID-19.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Agree
+               3  Neither agree nor disagree
+               4  Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/729-730
+
+      ________________________________________________________________________
+
+      Q28_1_3            Q28_1_3 Indicate the extent to which you agree or disagree with the following statement: All farmworkers, regardless of their legal status or seasonal work status, should receive equal pay as they work during the COVID-19 pandemic.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Agree
+               3  Neither agree nor disagree
+               4  Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/734-735
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 23
+
+
+      Q28_1_4            Q28_1_4 Indicate the extent to which you agree ...: To prevent COVID-19 among farmworkers, employers should be responsible for providing hand washing stations, PPE, and work conditions that enable farmworkers to practice social distancing.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Agree
+               3  Neither agree nor disagree
+               4  Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/739-740
+
+      ________________________________________________________________________
+
+      Q28                Q28 To what extent do you agree or disagree with the following statement: COVID-19 affects everyone equally.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Somewhat Agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/744-745
+
+      ________________________________________________________________________
+
+      Q29                Q29 To what extent do you agree or disagree with the following statement: COVID-19 impacts black people more than other groups.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Somewhat Agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/749-750
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 24
+
+
+      Q30                Q30 To what extent do you agree or disagree with the following statement: COVID-19 is increasing inequality in the United States.
+
+           VALUE  LABEL
+               1  Strongly Agree
+               2  Somewhat Agree
+               3  Neither agree nor disagree
+               4  Somewhat Disagree
+               5  Strongly Disagree
+
+           Data type: character
+           Record/columns: 1/754-755
+
+      ________________________________________________________________________
+
+      Q31_1              Q31_1 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: U.S. Congress
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/759-760
+
+      ________________________________________________________________________
+
+      Q31_2              Q31_2 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: President Trump
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/764-765
+
+      ________________________________________________________________________
+
+      Q31_3              Q31_3 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: Public officials in Sacramento
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/769-770
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 25
+
+
+      Q31_4              Q31_4 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: County officials
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/774-775
+
+      ________________________________________________________________________
+
+      Q31_5              Q31_5 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: Immigrants
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/779-780
+
+      ________________________________________________________________________
+
+      Q31_6              Q31_6 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: Chinese government / administration
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/784-785
+
+      ________________________________________________________________________
+
+      Q31_7              Q31_7 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: Chinese individuals
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/789-790
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 26
+
+
+      Q31_8              Q31_8 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: World Health Organization / Other international agencies
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/794-795
+
+      ________________________________________________________________________
+
+      Q31_9              Q31_9 To what extent do you think each of the following is responsible for the COVID-19 pandemic and shortage of tests and medical supplies: Healthcare providers and systems
+
+           VALUE  LABEL
+               1  Completely responsible
+               2  Mostly responsible
+               3  Somewhat responsible
+               4  Not responsible
+
+           Data type: character
+           Record/columns: 1/799-800
+
+      ________________________________________________________________________
+
+      Q32                Q32 How much trust and confidence do you have in the federal government in responding to the COVID-19 pandemic? If you don’t know, please just say so.
+
+           VALUE  LABEL
+               1  A lot
+               2  Some
+               3  Not much
+               4  Not at all
+               5  I do not know
+
+           Data type: character
+           Record/columns: 1/804-805
+
+      ________________________________________________________________________
+
+      Q44                Q44 Do you favor or oppose a nationwide shelter-in-place order to combat coronavirus?
+
+           VALUE  LABEL
+               1  Favor strongly
+               2  Favor somewhat
+               3  Oppose somewhat
+               4  Oppose strongly
+
+           Data type: character
+           Record/columns: 1/809-810
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 27
+
+
+      Q46                Q46 Which is a bigger concern for you: that shelter-in-place is ended too soon, causing COVID-19 to spread more or that shelter-in-place is continued for too long, causing greater economic damage?
+
+           VALUE  LABEL
+               1  That shelter in place is ended too soon, causing COVID-19 to spread more
+               2  That shelter in place is continued for too long, causing greater economic damage
+               3  Do not know
+
+           Data type: character
+           Record/columns: 1/814-815
+
+      ________________________________________________________________________
+
+      Q35                Q35 Is Californias diversity an advantage or disadvantage?
+
+           VALUE  LABEL
+               1  More of an advantage
+               2  More of a challenge and source of problems
+               3  Both an advantage and a disadvantage
+
+           Data type: character
+           Record/columns: 1/819-820
+
+      ________________________________________________________________________
+
+      Q36                Q36 Do immigrants make the U.S. a worse or better place to live?
+
+           VALUE  LABEL
+               1  Worse place to live
+               2  Better place to live
+
+           Data type: character
+           Record/columns: 1/824-825
+
+      ________________________________________________________________________
+
+      Q37                Q37 There should be a formal pathway to citizenship for immigrants who arrived in the U.S. illegally.
+
+           VALUE  LABEL
+               1  Agree strongly
+               2  Agree somewhat
+               3  Not sure
+               4  Disagree somewhat
+               5  Disagree strongly
+
+           Data type: character
+           Record/columns: 1/829-830
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 28
+
+
+      Q38_1              Q38_1 How often have you felt this emotion toward African Americans: Admiration
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/834-835
+
+      ________________________________________________________________________
+
+      Q38_2              Q38_2 How often have you felt this emotion toward African Americans: Anger
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/839-840
+
+      ________________________________________________________________________
+
+      Q38_3              Q38_3 How often have you felt this emotion toward African Americans: Fear
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/844-845
+
+      ________________________________________________________________________
+
+      Q38_4              Q38_4 How often have you felt this emotion toward African Americans: Sympathy
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/849-850
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 29
+
+
+      Q39_1              Q39_1 How often have you felt this emotion toward Asian Americans: Admiration
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/854-855
+
+      ________________________________________________________________________
+
+      Q39_2              Q39_2 How often have you felt this emotion toward Asian Americans: Anger
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/859-860
+
+      ________________________________________________________________________
+
+      Q39_3              Q39_3 How often have you felt this emotion toward Asian Americans: Fear
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/864-865
+
+      ________________________________________________________________________
+
+      Q39_4              Q39_4 How often have you felt this emotion toward Asian Americans: Sympathy
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/869-870
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 30
+
+
+      Q40_1              Q40_1 How often have you felt this emotion towards Latinos: Admiration
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/874-875
+
+      ________________________________________________________________________
+
+      Q40_2              Q40_2 How often have you felt this emotion towards Latinos: Anger
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/879-880
+
+      ________________________________________________________________________
+
+      Q40_3              Q40_3 How often have you felt this emotion towards Latinos: Fear
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/884-885
+
+      ________________________________________________________________________
+
+      Q40_4              Q40_4 How often have you felt this emotion towards Latinos: Sympathy
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/889-890
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 31
+
+
+      Q41_1              Q41 How often have you felt this emotion towards Whites: Admiration
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/894-895
+
+      ________________________________________________________________________
+
+      Q41_2              Q41 How often have you felt this emotion towards Whites: Anger
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/899-900
+
+      ________________________________________________________________________
+
+      Q41_3              Q41 How often have you felt this emotion towards Whites: Fear
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/904-905
+
+      ________________________________________________________________________
+
+      Q41_4              Q41 How often have you felt this emotion towards Whites: Sympathy
+
+           VALUE  LABEL
+               1  Rarely
+               2  Sometimes
+               3  Often
+
+           Data type: character
+           Record/columns: 1/909-910
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 32
+
+
+      Q49                Q49 The Census is conducted every 10 years to count the population of the United States. It is against the law for the Census Bureau to disclose...  How confident are you that the Census Bureau will keep your information private?
+
+           VALUE  LABEL
+               1  Very confident
+               2  Somewhat confident
+               3  Not that confident
+               4  Not at all confident
+
+           Data type: character
+           Record/columns: 1/914-915
+
+      ________________________________________________________________________
+
+      q1                 Q1 What is your age?
+
+           Data type: numeric
+           Record/columns: 1/918-920
+
+      ________________________________________________________________________
+
+      q2                 Q2 What county do you reside in?
+
+           Data type: numeric
+           Record/columns: 1/922-923
+
+      ________________________________________________________________________
+
+      Q50                Q50 For survey purposes, we would like to know what your racial and ethnic background is.
+
+           Data type: character
+           Record/columns: 1/926-938
+
+      ________________________________________________________________________
+
+      Q50_7_TE           Q50_7 For survey purposes, we would like to know what your racial and ethnic background is - other text input
+
+           Data type: character
+           Record/columns: 1/942-1162
+
+      ________________________________________________________________________
+
+      Q50_70             Q50_7 For survey purposes, we would like to know what your racial and ethnic background is - other text input
+
+           Data type: character
+           Record/column: 1/1166
+
+      ________________________________________________________________________
+
+      Q50_71             Q50_7 For survey purposes, we would like to know what your racial and ethnic background is - other text input
+
+           Data type: character
+           Record/column: 1/1170
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 33
+
+
+      Q51                Q51 Which of these do you think of as your primary racial or ethnic group? 
+
+           VALUE  LABEL
+               1  Latina/Latino/Hispanic
+               2  Black/African American
+               3  Asian/Pacific Islander
+               4  White/Caucasian
+               5  Native American/American Indian
+               6  Alaskan Native
+               7  Other
+
+           Data type: character
+           Record/columns: 1/1174-1175
+
+      ________________________________________________________________________
+
+      Q51_7_TE           Q51_7 Which of these do you think of as your primary racial or ethnic group - other text input
+
+           Data type: character
+           Record/columns: 1/1179-1322
+
+      ________________________________________________________________________
+
+      Q51_70             Q51_7 Which of these do you think of as your primary racial or ethnic group - other text input
+
+           Data type: character
+           Record/column: 1/1326
+
+      ________________________________________________________________________
+
+      Q52                Q52 Do you speak English primarily or do you speak Spanish primarily?
+
+           VALUE  LABEL
+               1  Speak English primarily
+               2  Speak Spanish primarily
+               3  Speak both Spanish and English
+
+           Data type: character
+           Record/columns: 1/1330-1331
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 34
+
+
+      Q53                Q53 What is the highest year of school that you have finished and gotten credit for? 
+
+           VALUE  LABEL
+               1  8th grade or less
+               2  Some high school
+               3  High school graduate
+               4  Trade/vocational school
+               5  1-2 years college/Associate degree
+               6  3 or more years college (no Bachelors degree)
+               7  College graduate (Bachelors degree)
+               8  Post graduate degree (e.g., Masters, MD, LLD, PhD, etc.)
+
+           Data type: character
+           Record/columns: 1/1335-1336
+
+      ________________________________________________________________________
+
+      Q54                Q54 How would you describe your gender?
+
+           Data type: character
+           Record/columns: 1/1340-1344
+
+      ________________________________________________________________________
+
+      Q54_5_TE           Q54_5 How would you describe your gender - other text input
+
+           Data type: character
+           Record/columns: 1/1348-1585
+
+      ________________________________________________________________________
+
+      Q54_50             Q54_5 How would you describe your gender - other text input
+
+           Data type: character
+           Record/column: 1/1589
+
+      ________________________________________________________________________
+
+      Q54_51             Q54_5 How would you describe your gender - other text input
+
+           Data type: character
+           Record/column: 1/1593
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 35
+
+
+      Q55                Q55 How many adults over 65 years are currently living in your household? (not including yourself): 
+
+           VALUE  LABEL
+               0  0
+               1  1
+               2  2
+               3  3
+               4  5
+               5  5
+               6  6
+               7  7
+               8  8
+               9  9
+              10  10+
+
+           Data type: character
+           Record/columns: 1/1597-1598
+
+      ________________________________________________________________________
+
+      Q56                Q56 How many children under the age of 18 are currently living in your household?
+
+           VALUE  LABEL
+               0  0
+               1  1
+               2  2
+               3  3
+               4  5
+               5  5
+               6  6
+               7  7
+               8  8
+               9  9
+              10  10+
+
+           Data type: character
+           Record/columns: 1/1602-1603
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 36
+
+
+      Q57                Q57 Do you have to care for children in your home?
+
+           VALUE  LABEL
+               1  No, I send my children elsewhere to be cared for
+               2  No, my children stay home alone and can care for themselves
+               3  Yes, and I am using my paid time off to care for them
+               4  Yes, and I am working at home while I also care for them
+               5  Yes, and I have childcare help to care for them while I work outside the home
+               6  Yes, and I have childcare in my home to care for them while I work in the home
+
+           Data type: character
+           Record/columns: 1/1607-1608
+
+      ________________________________________________________________________
+
+      Q58                Q58 Are you or is anyone in your household a member of a labor union?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: character
+           Record/columns: 1/1612-1613
+
+      ________________________________________________________________________
+
+      Q59                Q59 In general, how would you describe your political views?
+
+           VALUE  LABEL
+               1  Very conservative
+               2  Somewhat conservative
+               3  Moderate
+               4  Somewhat liberal
+               5  Very liberal
+
+           Data type: character
+           Record/columns: 1/1617-1618
+
+      ________________________________________________________________________
+
+      Q60                Q60 Which of the following best describes your present marital status? 
+
+           VALUE  LABEL
+               1  Married
+               2  Not married, but live together
+               3  Separated or divorced
+               4  Widowed
+               5  Single, never married
+
+           Data type: character
+           Record/columns: 1/1622-1623
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 37
+
+
+      Q61                Q61 Are you the parent or legal guardian of any children under the age of 18?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: character
+           Record/columns: 1/1627-1628
+
+      ________________________________________________________________________
+
+      Q62                Q62 Do you consider yourself a born-again or evangelical Christian?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: character
+           Record/columns: 1/1632-1633
+
+      ________________________________________________________________________
+
+      Q63                Q63 Were you born in the United States or another country?
+
+           VALUE  LABEL
+               1  Born in U.S.
+               2  Born in another country
+
+           Data type: character
+           Record/columns: 1/1637-1638
+
+      ________________________________________________________________________
+
+      Q64                Q64 Do you own or rent your current residence? For the purposes of this survey, you own your home even if you have outstanding debt that you owe in your mortgage loan. 
+
+           VALUE  LABEL
+               1  Own
+               2  Rent
+               3  Other
+
+           Data type: character
+           Record/columns: 1/1642-1643
+
+
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 38
+
+
+      Q65                Q65 Do you own a small business of your own?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Do not know
+
+           Data type: character
+           Record/columns: 1/1647-1648
+
+      ________________________________________________________________________
+
+      Q66                Q66 We do not want to know your exact income, but just roughly, could you tell us if your annual household income before taxes is
+
+           VALUE  LABEL
+               1  Less than $20,000
+               2  $20,000-$39,999
+               3  $40,000-$59,999
+               4  $60,000-$79,999
+               5  $80,000-$99,999
+               6  $100,000-$129,999
+               7  $130,000-$149,999
+               8  $150,000-$199,999
+               9  $200,000 or more
+
+           Data type: character
+           Record/columns: 1/1652-1653
+
+      ________________________________________________________________________
+
+      Q67                Q67 Which best describes your religious affiliation?
+
+           VALUE  LABEL
+               1  Protestant
+               2  Catholic
+               3  Other Christian
+               4  Jewish
+               5  Muslim
+               6  Hindu
+               7  Buddhist
+               8  Mormon
+               9  Agnostic
+              10  Atheist
+              11  Other
+              12  No particular preference
+
+           Data type: character
+           Record/columns: 1/1657-1658
+
+
+
+
+
+                                   August 4, 2020
+
+
+
+      IGS_2020_03                                                      Page 39
+
+
+      PARTY              party (registration)
+
+           Data type: character
+           Record/columns: 1/1662-1663
+
+      ________________________________________________________________________
+
+      F20                F20 (2018 general election voting)
+
+           Data type: character
+           Record/column: 1/1667
+
+      ________________________________________________________________________
+
+      RZIP               rzip (zipcode)
+
+           Data type: numeric
+           Record/columns: 1/1670-1674
+
+      ________________________________________________________________________
+
+      AGE_GROU           Age Group
+
+           Data type: character
+           Record/columns: 1/1677-1682
+
+      ________________________________________________________________________
+
+      COUNTY             County
+
+           Data type: character
+           Record/columns: 1/1686-1700
+
+      ________________________________________________________________________
+
+      REGION             Region
+
+           Data type: character
+           Record/columns: 1/1704-1719
+
+      ________________________________________________________________________
+
+      W1                 weight
+
+           Data type: numeric
+           Decimals: 17
+           Record/columns: 1/1722-1744
+
+
+
+
+
+
+
+
+
+
+                                   August 4, 2020
